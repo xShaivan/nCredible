@@ -1,0 +1,13 @@
+<template name="articles">
+  <h2>Articles</h2>
+  {{> Template.dynamic template="upload" data=editing}}
+  <ul>
+    {{#each articles}}
+      <li>
+        <a href="{{url}}" target="_blank">{{title}}</a>
+        <button class="edit">Edit</button>
+        <button class="remove">Remove</button>
+      </li>
+    {{/each}}
+  </ul>
+</template>

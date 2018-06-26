@@ -1,0 +1,184 @@
+body {
+    background: url("/images/bg.jpg") no-repeat;
+    background-size: cover;
+    color: #000;
+    font-family: "Raleway";
+}
+
+.header {
+    text-align: justify;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.title {
+    font-family: "Raleway";
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.newsbox {
+    color: #333;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0px 7px 25px 3px #aaa;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    height: 100px;
+}
+
+.leftcol {
+    color: #333;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0px 7px 25px 3px #aaa;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    height: 100px;
+}
+
+.rightcol {
+    color: #333;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0px 7px 25px 3px #aaa;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    height: 600px;
+}
+
+.abouttext {
+    margin: auto;
+    width: 80%;
+    font-family: "Ropa Sans";
+    font-size: 20px;
+}
+
+.blanktop {
+    height: 200px;
+}
+
+.shortblanktop {
+    height: 100px;
+}
+
+.loginbox {
+    color: #333;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    background: rgba(255,255,255,1);
+    box-shadow: 0px 7px 25px 3px #aaa;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    height: 200px;
+}
+
+.signupbox {
+    color: #333;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    background: rgba(255,255,255,1);
+    box-shadow: 0px 7px 25px 3px #aaa;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    height: 1000px;
+}
+
+.uploadbox {
+    color: #333;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    background: rgba(255,255,255,1);
+    box-shadow: 0px 7px 25px 3px #aaa;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    height: 100px;
+}
+
+.cattable {
+    color: #333;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    background: rgba(255,255,255,1);
+    box-shadow: 0px 7px 25px 3px #aaa;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    height: 200px;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+th, td {
+  background: rgba(255,255,255,1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+}
+
+.td {
+  padding: 20px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: green;
+}
+
+.menubar {
+    font-size: 25px;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.logsignup {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.loginfont {
+    font-family: "Ropa Sans";
+    font-size: 20px;
+}
+
+.loginform {
+    text-align: left;
+    margin-left: 220px;
+}
+
+.signupform {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.uploadform {
+    text-align: middle;
+}
+
+.break {
+  height: 50px;
+}
+/*
+border: 1px solid #eee;
+background: #fff;
+*/

@@ -1,0 +1,304 @@
+<!--
+<head>
+  <title>Real or Fake? You decide!</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ropa+Sans|Raleway" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="pure-g header">
+    <div class="pure-u-20-24">
+      <span class="title">
+        nCredible
+      </span>
+    </div>
+    <div class="pure-u-2-24 logsignup">
+      <a href="https://www.merriam-webster.com/dictionary/log%20in">LOGIN</a>
+    </div>
+    <div class="pure-u-2-24 logsignup">
+      <a href="https://www.merriam-webster.com/dictionary/sign%20up">SIGN UP</a>
+    </div>
+  </div>
+
+  {{> temp}}
+</body>
+-->
+
+<template name="home">
+  <head>
+    <title>Real or Fake? You decide!</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ropa+Sans|Raleway" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <div class="pure-g header">
+      <div class="pure-u-20-24">
+        <span class="title">
+          <a href="/">
+            nCredible
+          </a>
+        </span>
+      </div>
+      <div class="pure-u-2-24 logsignup">
+        <a href="/login">LOGIN</a>
+      </div>
+      <div class="pure-u-2-24 logsignup">
+        <a href="/signup">SIGN UP</a>
+      </div>
+    </div>
+
+    {{> temp}}
+  </body>
+</template>
+
+<template name="log">
+  <head>
+    <title>Please Login!</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ropa+Sans|Raleway" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="pure-g header">
+      <div class="pure-u-20-24">
+        <span class="title">
+          <a href="/">
+            nCredible
+          </a>
+        </span>
+      </div>
+      <div class="pure-u-2-24 logsignup">
+        <a href="/login">LOGIN</a>
+      </div>
+      <div class="pure-u-2-24 logsignup">
+        <a href="/signup">SIGN UP</a>
+      </div>
+    </div>
+    <div class="pure-g header">
+      <div class="pure-u-1-1 blanktop">
+      </div>
+    </div>
+    <div class="pure-g center">
+      <div class="pure-u-1-3">
+      </div>
+      <div class="pure-u-1-3 loginbox">
+        <br><br>
+        <span class="loginfont">
+          Are you Real?
+        </span>
+        <br><br><br><br>
+        <form class="loginform">
+          Username:<br>
+          <input type="text" name="username"><br>
+          Password:<br>
+          <input type="text" name="password"><br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="pure-u-1-3">
+      </div>
+    </div>
+  </body>
+</template>
+
+<template name="sign">
+  <head>
+    <title>Please Login!</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ropa+Sans|Raleway" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="pure-g header">
+      <div class="pure-u-20-24">
+        <span class="title">
+          <a href="/">
+            nCredible
+          </a>
+        </span>
+      </div>
+      <div class="pure-u-2-24 logsignup">
+        <a href="/login">LOGIN</a>
+      </div>
+      <div class="pure-u-2-24 logsignup">
+        <a href="/signup">SIGN UP</a>
+      </div>
+    </div>
+    <div class="pure-g header">
+      <div class="pure-u-1-1 shortblanktop">
+      </div>
+    </div>
+    <div class="pure-g center">
+      <div class="pure-u-1-3">
+      </div>
+      <div class="pure-u-1-3 signupbox">
+        <br><br>
+        <span class="loginfont">
+          Your voice matters. Let it be heard!
+        </span>
+        <br><br><br><br>
+        <form class="signupform">
+          Username:<br>
+          <input type="text" name="username" size ="50"><br><br>
+          Password:<br>
+          <input type="text" name="password" size ="50"><br><br>
+          Retype Password:<br>
+          <input type="text" name="re-password" size ="50"><br><br>
+          Email:<br>
+          <input type="text" name="email" size ="50"><br><br>
+          Gender:<br>
+          <input type="radio" name="gender" value="male" checked> Male<br>
+          <input type="radio" name="gender" value="female"> Female<br>
+          <input type="radio" name="gender" value="other"> Other<br>
+          <br>
+          Age:<br>
+          <input type="radio" name="age" value="<10" checked> Less than 10<br>
+          <input type="radio" name="age" value="10-19"> 10-19<br>
+          <input type="radio" name="age" value="20-29"> 20-29<br>
+          <input type="radio" name="age" value="30-39"> 30-39<br>
+          <input type="radio" name="age" value="40-49"> 40-49<br>
+          <input type="radio" name="age" value="50-59"> 50-59<br>
+          <input type="radio" name="age" value=">59"> More than 59<br>
+          <br>
+          Occupation:<br>
+          <select>
+            <option value="student">Student</option>
+            <option value="employed">Employed</option>
+            <option value="unemployed">Unemployed</option>
+            <option value="others">Others</option>
+          </select>
+          <br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="pure-u-1-3">
+      </div>
+
+      <div class="pure-u-1-1 break">
+      </div>
+    </div>
+  </body>
+</template>
+
+<template name="cat">
+  <head>
+    <title>Please Login!</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ropa+Sans|Raleway" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="pure-g header">
+      <div class="pure-u-20-24">
+        <span class="title">
+          <a href="/">
+            nCredible
+          </a>
+        </span>
+      </div>
+      <div class="pure-u-2-24 logsignup">
+        <a href="/login">LOGIN</a>
+      </div>
+      <div class="pure-u-2-24 logsignup">
+        <a href="/signup">SIGN UP</a>
+      </div>
+    </div>
+
+    <div class="pure-g center">
+      <div class="pure-u-1-1">
+        <table style="width:90%" align="center" class="table">
+          <tr>
+            <td class="td">
+              <img src="/images/ball.jpg">
+              <br>
+              <span class="logsignup">SPORTS</span>
+            </td>
+            <td class="td">
+              <img src="/images/pol.jpg">
+              <br>
+              <span class="logsignup">POLITICS</span>
+            </td>
+            <td class="td">
+              <img src="/images/space.jpg">
+              <br>
+              <span class="logsignup">TECHNOLOGY</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="td">
+              <img src="/images/coin.png">
+              <br>
+              <span class="logsignup">FINANCE</span>
+            </td>
+            <td class="td">
+              <img src="/images/cuff.png">
+              <br>
+              <span class="logsignup">CRIME</span>
+            </td>
+            <td class="td">
+              <img src="/images/tree.jpg">
+              <br>
+              <span class="logsignup">ENVIRONMENT</span>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</template>
+
+<template name="up">
+  <head>
+    <title>Please Login!</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ropa+Sans|Raleway" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="pure-g header">
+      <div class="pure-u-20-24">
+        <span class="title">
+          <a href="/">
+            nCredible
+          </a>
+        </span>
+      </div>
+      <div class="pure-u-2-24 logsignup">
+        <a href="/login">LOGIN</a>
+      </div>
+      <div class="pure-u-2-24 logsignup">
+        <a href="/signup">SIGN UP</a>
+      </div>
+    </div>
+    <div class="pure-g header">
+      <div class="pure-u-1-1 blanktop">
+      </div>
+    </div>
+    <div class="pure-g center">
+      <div class="pure-u-1-6">
+      </div>
+      <div class="pure-u-2-3 uploadbox">
+        <br><br>
+        <span class="loginfont">
+          ~ Please insert URL of news article ~
+        </span>
+        <br>
+        <!--<form id="urlform" class="uploadform">-->
+        {{> articles}}
+        <!--</form>-->
+      </div>
+      <div class="pure-u-1-6">
+      </div>
+    </div>
+  </body>
+</template>
